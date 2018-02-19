@@ -6,7 +6,7 @@ public class InterconnectingFlight {
 	
 	private Integer stops;
 	
-	private List<Flight> legs;
+	private List<InterconnectingFlightDetail> legs;
 	
 	public Integer getStops() {
 		return stops;
@@ -14,10 +14,10 @@ public class InterconnectingFlight {
 	public void setStops(Integer stops) {
 		this.stops = stops;
 	}
-	public List<Flight> getLegs() {
+	public List<InterconnectingFlightDetail> getLegs() {
 		return legs;
 	}
-	public void setLegs(List<Flight> legs) {
+	public void setLegs(List<InterconnectingFlightDetail> legs) {
 		this.legs = legs;
 	}
 	@Override
